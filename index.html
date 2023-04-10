@@ -3,14 +3,28 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Kamień, papier, nożyce</title>
-	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="sass/style.scss">
 </head>
 <body>
 	<div class="container">
+		<div class="instruction">
+			<h1>Hey! Want to play a game?</h1>
+			<h3><i>Instruction</i></h3>
+			<p>Players start each round by saying,<br>
+				“rock, paper, scissors, shoot!” <br>
+				On “shoot,” each player holds out <br>
+				their fist for rock, flat hand for paper,<br>
+				or their index and middle finger for scissors.<br>
+				<b>Rock crushes scissors, scissors cut paper,<br>
+				and paper covers rock. See who wins each round!</b>
+			</p>
+			<h4>Good luck then!</h4>
+		</div>
 		<div id="buttons">
-			<button id="button-rock">Kamień</button>
-			<button id="button-paper">Papier</button>
-			<button id="button-scissors">Nożyce</button>
+			<button class="btn btn-rock" id="button-rock">Kamień</button>
+			<button class="btn btn-paper" id="button-paper">Papier</button>
+			<button class="btn btn-scissors" id="button-scissors">Nożyce</button>
 		</div>
 		<div id="messages"></div>
 	</div>

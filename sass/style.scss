@@ -1,0 +1,30 @@
+.container {
+    background-image: url("https://i.postimg.cc/05WB9V9x/pexels-ovan-62693.jpg" alt="golder-hour");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.btn {
+    display: inline-block;
+    min-with: 160px;
+    margin: 24px auto 0 auto;
+    padding: 16px;
+    border-radius: 5px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-width: 2px;
+    border-style: solid;
+    background-color: inherit;
+    background-position: 100% 0;
+    background-size: 300%;
+    transition: $transition;
+}
+
+.btn:hover {
+    background: linear-gradient(transparent 50%, #f3a683);
+    transition: $transition;
+ }
