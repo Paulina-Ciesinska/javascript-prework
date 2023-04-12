@@ -4,12 +4,13 @@
 	<meta charset="UTF-8">
 	<title>Kamień, papier, nożyce</title>
 	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="sass/style.scss">
+	<link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
 	<div class="container">
 		<div class="instruction">
 			<h1>Hey! Want to play a game?</h1>
+			<h2>Rock/paper/scissors</h2>
 			<h3><i>Instruction</i></h3>
 			<p>Players start each round by saying,<br>
 				“rock, paper, scissors, shoot!” <br>
@@ -19,14 +20,15 @@
 				<b>Rock crushes scissors, scissors cut paper,<br>
 				and paper covers rock. See who wins each round!</b>
 			</p>
-			<h4>Good luck then!</h4>
+			<h4>Goodluck then!</h4>
 		</div>
 		<div id="buttons">
-			<button class="btn btn-rock" id="button-rock">Kamień</button>
-			<button class="btn btn-paper" id="button-paper">Papier</button>
-			<button class="btn btn-scissors" id="button-scissors">Nożyce</button>
+			<button class="btn btn-rock" id="button-rock" type="button">Kamień</button>
+			<button class="btn btn-paper" id="button-paper" type="button">Papier</button>
+			<button class="btn btn-scissors" id="button-scissors" type="button">Nożyce</button>
 		</div>
 		<div id="messages"></div>
+		<div id="result"></div>
 	</div>
 	<script src="js/functions.js"></script>
 	<script src="js/script.js"></script>

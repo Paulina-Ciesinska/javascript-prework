@@ -1,18 +1,65 @@
-.container {
-    background-image: url("https://i.postimg.cc/05WB9V9x/pexels-ovan-62693.jpg" alt="golder-hour");
+/* Global */
+
+*, *::before, *::after {
+	box-sizing: border-box;
+} 
+
+body {
+    background-image: url("/images/golden-hour.jpg");
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
+    object-fit: cover;
+}
+
+h1 {
+    color: #54a0ff;
+    text-align: center;
+}
+
+h2 {
+    color: #5f27cd;
+    text-align: center;
+}
+
+h3 {
+    color: #341f97;
+    text-align: left;
+    font-size: 23px;
+}
+
+h4 {
+    font-size: 25px;
+    color: #5f27cd;
+}
+
+p {
+    color: #576574;
+    text-align: left;
+    font-size: 25px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #e67e22;
+}
+
+#messages {
+    text-align: center;
+    color: #e67e22;
+    font-size: 22px;
+    margin-top: 5px;
+}
+
+#buttons {
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 .btn {
-    display: inline-block;
     min-with: 160px;
     margin: 24px auto 0 auto;
     padding: 16px;
     border-radius: 5px;
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 16px;
+    font-size: 30px;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
@@ -21,10 +68,20 @@
     background-color: inherit;
     background-position: 100% 0;
     background-size: 300%;
-    transition: $transition;
+}
+
+.btn-rock {
+    border-color: #01a3a4;
+}
+
+.btn-paper {
+    border-color: #f368e0;
+}
+
+.btn-scissors {
+    border-color: #ff9f1a;
 }
 
 .btn:hover {
-    background: linear-gradient(transparent 50%, #f3a683);
-    transition: $transition;
+    background: linear-gradient(transparent 50%, #dcdde1);
  }

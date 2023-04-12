@@ -53,6 +53,15 @@ function displayResult(argPlayerMove, argComputerMove) {
     printMessage('Przegrywasz :(');
   }
   printMessage('Zagrałem ' + argComputerMove + ', a Ty ' + argPlayerMove);
+
+  /**
+   * Describe this function...Liczenie rund
+   */
+
+  var argWinner
+
+
+   
 }
 playerMove = argButtonName;
 console.log('wybór ruchu gracza to: ' + playerInput);
