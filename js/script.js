@@ -1,4 +1,4 @@
-let argButtonName;
+/* let argButtonName; */
 
 const buttonRock = document.getElementById('button-rock');
 buttonRock.addEventListener('click', function(){ buttonClicked('kamień'); });
@@ -20,18 +20,18 @@ function buttonClicked(argButtonName) {
 /**
  * Describe this function...
  */
-let argMoveId;
+/* let argMoveId; */
 
 function getMoveName(argMoveId) {
   console.log('wywołano funkcję getMoveName z argumentem: ' + argMoveId);
-  if (argMoveId == 1) {
-    return 'kamień';
-  } else if (argMoveId == 2) {
-    return 'papier';
-  } else if (argMoveId == 3) {
-    return 'nożyce';
-  } else {
-    printMessage('Nie znam ruchu o id ' + argMoveId + '. Zakładam, że chodziło o "kamień".');
+    if (argMoveId == 1) {
+      return 'kamień';
+    } else if (argMoveId == 2) {
+        return 'papier';
+    } else if (argMoveId == 3) {
+        return 'nożyce';
+    } else {
+      printMessage('Nie znam ruchu o id ' + argMoveId + '. Zakładam, że chodziło o "kamień".');
     return 'kamień';
   }
 }
@@ -40,8 +40,8 @@ function getMoveName(argMoveId) {
  * Describe this function...
  */
 
-let argPlayerMove, 
-    argComputerMove;
+/* let argPlayerMove, 
+    argComputerMove; */
 
 function displayResult(argPlayerMove, argComputerMove) {
   console.log('wywołano funkcję displayResults z argumentami: ' + argPlayerMove + ', ' + argComputerMove);
